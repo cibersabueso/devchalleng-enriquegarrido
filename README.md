@@ -68,19 +68,23 @@ npm test
 Ver cobertura de tests:
 npm run test:coverage
 
-Estructura del Proyecto
-Copy├── src/
-│   ├── config/         # Configuraciones y constantes
-│   ├── controllers/    # Controladores de rutas
-│   ├── interfaces/     # Interfaces TypeScript
-│   ├── middlewares/    # Middlewares Express
-│   ├── repositories/   # Acceso a datos
-│   ├── routes/         # Definición de rutas
-│   ├── services/       # Lógica de negocio
-│   └── utils/          # Utilidades
-├── resources/          # Archivos JSON (base de datos simulada)
-├── tests/             # Tests unitarios
-└── dist/              # Código compilado
+## Estructura del Proyecto
+
+```
+src/
+│── config/          # Configuraciones y constantes
+│── controllers/     # Controladores de rutas
+│── interfaces/      # Interfaces TypeScript
+│── middlewares/     # Middlewares Express
+│── repositories/    # Acceso a datos
+│── routes/         # Definición de rutas
+│── services/       # Lógica de negocio
+│── utils/          # Utilidades
+│── resources/      # Archivos JSON (base de datos simulada)
+│── tests/         # Tests unitarios
+dist/               # Código compilado
+```
+
 
 
 Scripts Disponibles
